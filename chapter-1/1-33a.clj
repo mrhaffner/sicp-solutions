@@ -14,7 +14,7 @@
 
 ;; use books implementation of finding a prime number
 ;; operates in O(log N)
-;; faster tests are possible, but we use this due to it's simple implementation
+;; faster tests are possible, but we use this due to its simple implementation
 (defn smallest-divisor 
     [n] 
     (find-divisor n 2))
