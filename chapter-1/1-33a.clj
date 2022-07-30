@@ -1,7 +1,6 @@
 ;; Exercise 1.33a
 ;; page 82
 
-;; apply a filter to the accumulator function from 1-32
 (defn filtered-accumulate
     [filter combiner null-value term a next b]
         (cond 

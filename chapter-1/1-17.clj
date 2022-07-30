@@ -1,7 +1,6 @@
 ;; Exercise 1.17
 ;; page 60
 
-;; perform multiplication by using halve and double  on two positive numbers
 (defn double
     "Doubles a number"
     [a]

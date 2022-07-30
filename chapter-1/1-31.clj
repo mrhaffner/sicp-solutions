@@ -1,8 +1,6 @@
 ;; Exercise 1.31
 ;; page 80-81
 
-;; create a procedure "product" that returns the product of all values generated
-;; from a to b by calling "term" procedure and stepping with the "term" procedure
 (defn product
     [term a next b]
     (if (> a b)

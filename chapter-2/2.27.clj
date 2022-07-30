@@ -1,9 +1,6 @@
 ;; Exercise 2.27
 ;; Page 150
 
-;; Produce a deep-reverse procedure that takes a list as argument and returns as its value 
-;; the list with its elements reversed and with all sublists deep-reversed as well.
-
 (defn deep-reverse
     [l]
     (defn inner-reverse

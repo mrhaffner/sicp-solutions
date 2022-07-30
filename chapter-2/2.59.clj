@@ -1,9 +1,6 @@
 ;; Exercise 2.59
 ;; Page 206
 
-;; Implement the union-set operation for the
-;; unordered-list representation of sets.
-
 (defn element-of-set?
     [x set]
     (cond (empty? set) false

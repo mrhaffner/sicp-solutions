@@ -1,9 +1,6 @@
 ;; Exercise 1.41
 ;; page 103
 
-;; Create a function double that takes in a function "f"
-;; and returns a function that applies "f" twice
-
 ;; using concise language feature
 (defn double
     [f]

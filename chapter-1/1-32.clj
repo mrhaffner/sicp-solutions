@@ -1,3 +1,5 @@
+;; Exercise 1.32
+
 (defn accumulator
     [combiner null-value term a next b]
     (if (> a b)

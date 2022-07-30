@@ -1,12 +1,6 @@
 ;; Exercise 3.2
 ;; Page 304
 
-;; Modify the make-account procedure so that
-;; it creates password-protected accounts. That is, make-account
-;; should take a symbol as an additional argument, 
-;; Thee resulting account object should process a request only
-;; if it is accompanied by the password with which the account was created, and should otherwise return a complaint
-
 (defn make-account 
     [initial-balance new-password]
     (let [balance (atom initial-balance) password new-password]

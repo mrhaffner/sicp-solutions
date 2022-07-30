@@ -1,10 +1,6 @@
 ;; Exercise 1.11
 ;; page 53
 
-;; Implement the function:
-;;  f(n) = { n if n < 3,
-;;       = { f(n-1) + 2*f(n-2) + 3*f(n-3) if n >= 3.
-
 ;; Recursive implementation
 (defn f
   [n]

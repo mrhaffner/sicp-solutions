@@ -1,10 +1,6 @@
 ;; Exercise 2.2
 ;; Page 121
 
-;; Create several layers of data abstractions for a line segment
-;; Create a procedure that computes the midpoint of a line with
-;; those data abstractions
-
 ;; construcor
 (defn make-segment
     [pt1, pt2]
